@@ -56,3 +56,5 @@ geometries examples:
     8. await obj.createCircle(<x>, <y>, <z>, <size>, <color>)
 
     9. await obj.createStars(<amount>, <size>, <color>)
+
+hope you enjoy this new threejs library and have a nice day
