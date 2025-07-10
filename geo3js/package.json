@@ -1,13 +1,13 @@
 {
   "name": "geo3js",
-  "version": "1.0.11",
+  "version": "1.0.13",
   "description": "geo3js is a threejs geometries library that has easy to use threejs geometries",
   "keywords": [
     "threejs",
     "shapes",
     "geometry"
   ],
-  "homepage": "https://github.com/Jamcha123/geo3#readme",
+  "homepage": "https://github.com/Jamcha123/geo3/tree/main/geo3js#readme",
   "bugs": {
     "url": "https://github.com/Jamcha123/geo3/issues"
   },
