@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "geo3js": "^1.0.17",
+    "tailwindcss": "^4.1.11",
+    "three": "^0.178.0"
+  }
+}

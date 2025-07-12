@@ -20,10 +20,10 @@ export default class geo3js{
         const geometry = new THREE.BoxGeometry(10, 10, 10)
         const material = new THREE.MeshBasicMaterial({
             color: color, 
-            side: three.DoubleSide, 
-            wireframe: false
+            side: THREE.DoubleSide, 
+            wireframe: true
         })
-        const mesh = new three.Mesh(geometry, material)
+        const mesh = new THREE.Mesh(geometry, material)
         mesh.position.set(x, y, z)
         mesh.scale.set(size, size, size)
 
@@ -34,7 +34,7 @@ export default class geo3js{
         const material = new THREE.MeshBasicMaterial({
             color: color, 
             side: THREE.DoubleSide, 
-            wireframe: false
+            wireframe: true
         })
         const mesh = new THREE.Mesh(geometry, material)
         mesh.position.set(x, y, z)
@@ -47,7 +47,7 @@ export default class geo3js{
         const material = new THREE.MeshBasicMaterial({
             color: color, 
             side: THREE.DoubleSide, 
-            wireframe: false
+            wireframe: true
         })
         const mesh = new THREE.Mesh(geometry, material)
         mesh.position.set(x, y, z)
@@ -60,7 +60,7 @@ export default class geo3js{
         const material = new THREE.MeshBasicMaterial({
             color: color, 
             side: THREE.DoubleSide, 
-            wireframe: false
+            wireframe: true
         })
         const mesh = new THREE.Mesh(geometry, material)
         mesh.position.set(x, y, z)
@@ -73,7 +73,7 @@ export default class geo3js{
         const material = new THREE.MeshBasicMaterial({
             color: color, 
             side: THREE.DoubleSide, 
-            wireframe: false
+            wireframe: true
         })
         const mesh = new THREE.Mesh(geometry, material)
         mesh.position.set(x, y, z)
@@ -86,7 +86,7 @@ export default class geo3js{
         const material = new THREE.MeshBasicMaterial({
             color: color, 
             side: THREE.DoubleSide, 
-            wireframe: false
+            wireframe: true
         })
         const mesh = new THREE.Mesh(geometry, material)
         mesh.position.set(x, y, z)
@@ -99,7 +99,7 @@ export default class geo3js{
         const material = new THREE.MeshBasicMaterial({
             color: color, 
             side: THREE.DoubleSide, 
-            wireframe: false
+            wireframe: true
         })
         const mesh = new THREE.Mesh(geometry, material)
         mesh.position.set(x, y, z)
@@ -112,7 +112,7 @@ export default class geo3js{
         const material = new THREE.MeshBasicMaterial({
             color: color, 
             side: THREE.DoubleSide, 
-            wireframe: false
+            wireframe: true
         })
         const mesh = new THREE.Mesh(geometry, material)
         mesh.position.set(x, y, z)
